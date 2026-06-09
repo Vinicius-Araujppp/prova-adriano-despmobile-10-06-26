@@ -1,0 +1,19 @@
+{
+  "name": "contatos-api",
+  "version": "1.0.0",
+  "description": "API de contatos com Express e PostgreSQL para Render.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

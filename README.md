@@ -1,6 +1,6 @@
 # App de Contatos
 
-Projeto mobile em Flutter com CRUD completo de contatos, persistencia local com SQLite e persistencia remota usando uma API propria em Node.js publicada no Render com PostgreSQL.
+Projeto mobile em Flutter com CRUD completo de contatos, persistencia local com SQLite e persistencia remota usando uma API propria em Node.js preparada para publicacao no Render com PostgreSQL.
 
 ## Participantes 
 
@@ -92,7 +92,7 @@ Rode o app usando persistencia local:
 flutter run
 ```
 
-Para usar a API publicada no Render, informe a URL da API:
+Para usar a API publicada no Render, informe a URL real da API:
 
 ```bash
 flutter run --dart-define=API_BASE_URL=https://sua-api.onrender.com
@@ -195,6 +195,8 @@ DELETE /contatos/:id
 ```
 
 ## Como publicar no Render
+
+O repositorio tambem possui um arquivo `render.yaml` na raiz. Voce pode usar esse arquivo para criar a API e o PostgreSQL juntos pelo recurso Blueprint do Render, ou seguir os passos manuais abaixo.
 
 ### 1. Criar o banco PostgreSQL
 
